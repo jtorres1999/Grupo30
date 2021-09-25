@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Web</title>
+        <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="script/script.js"></script>
     </head>
@@ -19,29 +20,33 @@
                         <h2>Curso de Programacion Web en Python con Flask</h2>
                         <p>Estilos</p>
                         <p>
-                            <span>A</span>
-                            <span>A</span>
-                            <span>A</span>
+                            <span class="pequeno">A</span>
+                            <span class="normal">A</span>
+                            <span class="grande">A</span>
                         </p>
                     </div>
                 </div>
                 <div class="boton-avatar">
-                    <div>
-                        <p> <span>plumita</span> Publicar</p>
+                    <div class="boton">
+                        <p> <span class="pluma"></span> Publicar</p>
                     </div>
-                    <div>
+                    <div class="avatar">
                         <img src="assets/witch.jpg" alt="">
-                        <p>felcha abajo</p>
+                        <div>
+                            <p class="texto-fabajo">
+                                <span class="fabajo"></span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <nav>
                 <ul>
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>JAVASCRIPT</li>
-                    <li>PYTHON</li>
-                    <li>FLASK</li>
+                    <li><a href="#">HTML 5</a></li>
+                    <li><a href="#">CSS 3</a></li>
+                    <li><a href="#">JAVASCRIPT</a></li>
+                    <li><a href="#">PYTHON</a></li>
+                    <li><a href="#">FLASK</a></li>
                 </ul>
             </nav>
         </header>
@@ -54,7 +59,7 @@
                     <div class="post">
                         <div class="titulo-autor">
                             <h3>Progrmacion HTML, CSS y JAVASCRIPT</h3>
-                            <p>Etilos</p>
+                            <p>Por Juan Teheran</p>
                         </div>
                         <div class="tag-tiempo">
                             <div class="tag">
@@ -68,18 +73,31 @@
                 </div>
                 <div class="estadistica">
                     <div class="contador">
-                        <p><span>flecha arriba</span> numero <span>flecha abajo</span></p>
+                        <div class="flecha-arriba">
+                            <p>
+                                <span class="farriba"></span> 
+                            </p>
+                        </div>
+                        <p> 0 </p>
+                        <div class="flecha-abajo">
+                            <p>
+                                <span class="fabajo"></span>
+                            </p>
+                        </div>
                     </div>
                     <div class="iconitos">
-                        <p> numero <span>estrellita</span></p>
+                        <p> 
+                            10 
+                            <span class="estrellita"></span>
+                        </p>
                     </div>
                 </div>
             </article>
         </section>
         <footer>
             <p>
-                <span>Programacion web</span>
-                - Grupo 30 MisionTic -
+                Programacion web
+                <span>Grupo 30 MisionTic</span>
             </p>
         </footer>
     </body>
