@@ -1,0 +1,11 @@
+/*Crear entorno*//
+python -m venv entorno
+/*setiar variables antes de correr la app *//
+set FLASK_APP
+set FLASK_ENV=development
+/*RUN APP*//
+python3 -m flask run
+/*importar //
+{{ url_for('static', filename='css/miEstilo.css') }}
+{{ url_for('static', filename='js/validacion.js') }}
+{{ url_for('static', filename='images/view.png') }}
